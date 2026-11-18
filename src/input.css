@@ -1,2 +1,33 @@
 @import "tailwindcss";
 @plugin "daisyui";
+@font-face {
+    font-family: vazir;
+    src: url(../assets/font/Vazirmatn-Regular.woff2);
+}
+* {
+    font-family: vazir;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+
+}
+.swiper-pagination-bullet {
+    background: #fff;
+    opacity: 0.6;
+    
+}
+.swiper-pagination-bullet-active {
+    background: #62d0b6;
+    opacity: 1;
+
+}
+.swiper-button-next svg,
+.swiper-button-prev svg {
+    width: 16px;
+    height: 16px;
+}
