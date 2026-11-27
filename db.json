@@ -45,19 +45,26 @@
     ],
     "products3": [
         {
-            "img":"",
+            "bg":"#E0F6F0",
+            "img":"./assets/img/apple.png",
             "title": "پردازش سریع‌تر و غنی‌تر",
-            "discription": "پردازشگر EXPEED 5 که سریع‌تر از EXPEED 4 است، داده‌های ۴۵.۷ مگاپیکسلی را با سرعتی بالا پردازش می‌کند تا نویز را کاهش دهد.",
+            "discription": "پردازشگر EXPEED 5 که سریع‌تر از EXPEED 4 است.",
+            "btn":"#E0F6F0"
         },
         {
-            "img":"",
+             "bg":"#FFEFDA",
+            "img":"./assets/img/phone-removebg-preview.png",
             "title": "گوشی موبایل شیائومی مدل Redmi 15 4G",
-            "discription": "دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت"
+            "discription": "دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
+            "btn":"#FFEFDA"
         },
         {
-            "img":"",
-            "title": "هدفون بلوتوثی ریولینک مدل Trarengvba Pro3",
-            "discription": "مقاوم در برابر گرد و غبار"
+             "bg":"#FDDCDD",
+            "img":"./assets/img/irpad-removebg-preview.png",
+            "title": "هدفون بلوتوثی ریولینک Trarengvba ",
+            "discription": "مقاوم در برابر گرد و غبار",
+            "btn":"#FDDCDD"
+
         }
     ]
 }

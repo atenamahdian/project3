@@ -35,3 +35,28 @@ let showmenu=async()=>{
 
 
 showmenu()
+let showproducts3=async()=>{
+    let data =await fetch("http://localhost:3000/products3")
+    let res =await data.json()
+    res.forEach((elem) => {
+        document.querySelector(".cardcontainer2").innerHTML+=`
+<div class="card w-96 h-125 shadow-sm" style="background:${elem.bg}">
+  <figure class="px-10 pt-10">
+    <img
+      src="${elem.img}"
+      alt="Shoes"
+      class="rounded-xl h-[300px]" />
+  </figure>
+  <div class="card-body items-center text-center">
+    <h2 class="card-title">${elem.title}</h2>
+    <p>${elem.discription}</p>
+    <div class="card-actions">
+      <button class="btn border-none shadow-none text-black" style="background:${elem.btn}">همین حالا خرید کنید</button>
+    </div>
+  </div>
+</div>
+
+        `
+    });
+}
+ showproducts3()
