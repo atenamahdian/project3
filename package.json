@@ -1,10 +1,66 @@
 {
+  "name": "project3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
   "dependencies": {
-    "@tailwindcss/cli": "^4.3.5",
     "bootstrap": "^6.0.0-alpha.1",
-    "tailwindcss": "^4.3.5"
+    "chalk": "^5.6.2",
+    "chokidar": "^5.0.0",
+    "colorette": "^2.0.20",
+    "content-disposition": "^3.1.0",
+    "daisyui": "^5.8.1",
+    "dayjs": "^1.11.23",
+    "detect-libc": "^2.1.2",
+    "dot-prop": "^10.2.0",
+    "enhanced-resolve": "^5.26.1",
+    "eta": "^4.6.0",
+    "graceful-fs": "^4.2.11",
+    "header-range-parser": "^2.0.0",
+    "http-status-emojis": "^2.2.0",
+    "inflection": "^3.0.2",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "jiti": "^2.7.0",
+    "json-server": "^1.0.0-beta.15",
+    "json5": "^2.2.3",
+    "lightningcss": "^1.33.0",
+    "lightningcss-win32-x64-msvc": "^1.33.0",
+    "lowdb": "^7.0.1",
+    "magic-string": "^1.4.5",
+    "milliparsec": "^5.1.2",
+    "mri": "^1.2.0",
+    "mrmime": "^2.0.1",
+    "node-addon-api": "^7.1.1",
+    "picocolors": "^1.1.1",
+    "picomatch": "^4.0.7",
+    "readdirp": "^5.1.1",
+    "regexparam": "^3.0.0",
+    "sirv": "^3.0.2",
+    "sort-on": "^7.0.0",
+    "source-map-js": "^1.2.2",
+    "steno": "^4.0.2",
+    "tagged-tag": "^1.0.0",
+    "tailwindcss": "^4.3.5",
+    "tapable": "^2.3.3",
+    "totalist": "^3.0.1",
+    "type-fest": "^5.10.0",
+    "vanilla-calendar-pro": "^3.4.0"
   },
-  "devDependencies": {
-    "daisyui": "^5.8.1"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atenamahdian/project3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/atenamahdian/project3/issues"
+  },
+  "homepage": "https://github.com/atenamahdian/project3#readme"
 }
