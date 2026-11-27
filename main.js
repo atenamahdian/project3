@@ -45,11 +45,11 @@ let showproducts3=async()=>{
     <img
       src="${elem.img}"
       alt="Shoes"
-      class="rounded-xl h-[300px]" />
+      class="rounded-xl h-75" />
   </figure>
   <div class="card-body items-center text-center">
     <h2 class="card-title">${elem.title}</h2>
-    <p>${elem.discription}</p>
+    <p class="text-stone-600">${elem.discription}</p>
     <div class="card-actions">
       <button class="btn border-none shadow-none text-black" style="background:${elem.btn}">همین حالا خرید کنید</button>
     </div>
