@@ -1781,6 +1781,9 @@
   .mt-\[80px\] {
     margin-top: 80px;
   }
+  .mt-auto {
+    margin-top: auto;
+  }
   .mb-5 {
     margin-bottom: calc(var(--spacing) * 5);
   }
@@ -1951,6 +1954,9 @@
   }
   .h-34 {
     height: calc(var(--spacing) * 34);
+  }
+  .h-48 {
+    height: calc(var(--spacing) * 48);
   }
   .h-50 {
     height: calc(var(--spacing) * 50);
@@ -2247,6 +2253,9 @@
   .p-3 {
     padding: calc(var(--spacing) * 3);
   }
+  .p-4 {
+    padding: calc(var(--spacing) * 4);
+  }
   .p-5 {
     padding: calc(var(--spacing) * 5);
   }
@@ -2291,6 +2300,9 @@
   }
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
+  }
+  .pt-1 {
+    padding-top: var(--spacing);
   }
   .pt-4 {
     padding-top: calc(var(--spacing) * 4);
@@ -2463,11 +2475,20 @@
     :is(:where(.group):hover .group-hover\:text-white) {
       color: var(--color-white);
     }
+    .hover\:border-\[\#62D0B6\]:hover {
+      border-color: #62D0B6;
+    }
     .hover\:border-primary:hover {
       border-color: var(--color-primary);
     }
     .hover\:bg-\[\#62D0B6\]:hover {
       background-color: #62D0B6;
+    }
+    .hover\:text-\[\#62D0B6\]:hover {
+      color: #62D0B6;
+    }
+    .hover\:text-red-500:hover {
+      color: var(--color-red-500);
     }
     .hover\:text-white:hover {
       color: var(--color-white);
@@ -2480,6 +2501,9 @@
     .sm\:w-\[calc\(50\%-8px\)\] {
       width: calc(50% - 8px);
     }
+    .sm\:w-\[calc\(50\%-12px\)\] {
+      width: calc(50% - 12px);
+    }
   }
   @media (width >= 64rem) {
     .lg\:w-\[14\.28\%\] {
@@ -2487,6 +2511,9 @@
     }
     .lg\:w-\[calc\(25\%-12px\)\] {
       width: calc(25% - 12px);
+    }
+    .lg\:w-\[calc\(25\%-18px\)\] {
+      width: calc(25% - 18px);
     }
   }
 }
